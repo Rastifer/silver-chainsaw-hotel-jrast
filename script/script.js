@@ -1,3 +1,4 @@
+$(function () {
 var checkboxes = document.querySelectorAll('input[type="checkbox"]');
     var maxAllowed = 3;
 
@@ -9,3 +10,4 @@ var checkboxes = document.querySelectorAll('input[type="checkbox"]');
             }
         });
     }
+});
